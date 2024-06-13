@@ -63,7 +63,6 @@ body{
     padding: 24px 0;
 }
 
-
 .estudante-imagem{
     width: 120px;
 }
@@ -80,10 +79,11 @@ body{
 
 .estudante-titulo{
     text-align: center;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 .estudante-todos{
     display: grid;
-  
-} 
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
